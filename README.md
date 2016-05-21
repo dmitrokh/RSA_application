@@ -2,7 +2,9 @@
 
 RSA application in Java.
 
-This was my Honors Project for the Discrete Structures class. All files with the source code can be found in the folder "src"; an executable Jar file is in the folder "dist."
+This was my Honors Project for the Discrete Structures class. 
+
+All files with the source code can be found in the folder "src"; an executable Jar file is in the folder "dist." Everything else is the files created by NetBeans.
 
 The RSA application was built in Java with the use of MVC design and GUI. Doing RSA encryption/decryption in Java is not a straightforward task as it is in Python, for example. Python can easily handle huge numbers (aka hundreds of digits long) and doing computation with such big numbers in Python is trivial. In Java, however, it is not a case. In order to work with big numbers in Java, we need to use a special library - BigIntegers (yes, we are talking about huge integers, RSA doesn't use numbers with floating point).
 
